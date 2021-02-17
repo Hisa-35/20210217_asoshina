@@ -19,7 +19,9 @@ export default {
     }
   },
   methods: {
-    searchAddressInfo(url) {
+    searchAddressInfo(
+      https://apis.postcode-jp.com/api/v4/postcodes/postcode==${this.text}?apiKey=IPJQQ8yzHDIjySikctA5hy3K2Yy5obbcpC4ra38
+    ) {
       axios.get(url).then((res) => {
         // リクエスト送信後以下resにレスポンス（受け取ったデータ）が含まれるので
         // console.logで値の確認を行います dataプロパティの中に住所は含まれております
