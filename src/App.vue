@@ -3,6 +3,7 @@
     <input type="text"  v-model="text"/>
     <button @click="searchAddressInfo">住所自動入力</button>
     <p>Address：{{addressData}}</p>
+    <p>create by A.HISA</p>
   </section>
 </template>
 
